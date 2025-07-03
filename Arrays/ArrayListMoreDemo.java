@@ -10,5 +10,8 @@ public class ArrayListMoreDemo {
         System.out.println(nums);
         nums.remove(23.3);
         System.out.println(nums);
+        nums.clear();
+        Collections.sort(nums);
+        
     }
 }
