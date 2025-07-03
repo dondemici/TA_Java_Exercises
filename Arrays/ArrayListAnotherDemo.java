@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.*;
 public class ArrayListAnotherDemo {
     public static void main(String[] args) {
@@ -25,6 +26,17 @@ public class ArrayListAnotherDemo {
         String s=itr.next();
         System.out.println(s);
     }
+
+    System.out.println(listofGuests.get(2));
+    System.out.println(listofGuests.get(listofGuests.size()-1));
+
+    ArrayList<Integer> numero = new ArrayList<Integer>();
+    numero.add(1);
+    numero.add(new Integer(10));
+    Object[]nums=numero.toArray();
+
+    for(Object i:nums)
+    System.out.println(nums);
 
     }
 }
