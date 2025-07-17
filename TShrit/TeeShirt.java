@@ -5,7 +5,7 @@ public class TeeShirt {
     private String size;
     public double price;
     
-    public TeeShirt(String order_Number, String color, String size, double price) {
+    public TeeShirt(String order_Number, String color, String size) {
         Order_Number = order_Number;
         this.color = color;
         this.size = size;
@@ -45,6 +45,6 @@ public class TeeShirt {
 
     @Override
     public String toString(){
-        return "Order #: " + Order_Number +"/nColor: "+ color +"/nSize: "+ size+"/nPrice: " + price;
+        return "Order #: " + Order_Number +"\nColor: "+ color +"\nSize: "+ size+"\nPrice: " + price;
     }
 }
