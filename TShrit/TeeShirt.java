@@ -42,4 +42,9 @@ public class TeeShirt {
     public void setSize(String size) {
         this.size = size;
     }
+
+    @Override
+    public String toString(){
+        return "Order #: " + Order_Number +"/nColor: "+ color +"/nSize: "+ size+"/nPrice: " + price;
+    }
 }
